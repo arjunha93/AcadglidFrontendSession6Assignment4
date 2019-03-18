@@ -1,63 +1,15 @@
-var employee = [
-            {
-            name: 'Arjun H A',
-            age: 26,
-            salary: "60000",
-            address:  {
-              'city':'mandya'
-              'state':'karnataka',
-              'pincode':'571450'
-            }
+var arr = [12,43,56];
+ var max = arr[0];
+ for(var i=0;i<arr.length;i++){
+     if(arr[i] > max){
+         max=arr[i];
+     }
+ }
+ 
+ console.log('max : ' + max);
 
-        },
-         {
-                name: 'manjunath',
-                age: 26,
-                salary: "60000",
-                address:  {
-                  'city':'mandya'
-                  'state':'karnataka',
-                  'pincode':'571450'
-                }
+var first = 17;
+var second = 84;
+var third = 41;
 
-          },
-         {
-                name: 'pradeep',
-                age: 26,
-                salary: "70000",
-                address:  {
-                  'city':'mandya'
-                  'state':'karnataka',
-                  'pincode':'571450'
-                }
-
-            },
-        {
-            name: 'raghu',
-            age: 26,
-            salary: "80000",
-            address:  {
-              'city':'mandya'
-              'state':'karnataka',
-              'pincode':'571450'
-            }
-
-        },
-        {
-            name: 'harsha',
-            age: 26,
-            salary: "90000",
-            address:  {
-              'city':'mandya'
-              'state':'karnataka',
-              'pincode':'571450'
-            }
-
-        }
-    ]
-console.log("name ",employee[0].name);
-console.log("age ",employee[0].age);
-console.log("dateofbirth ",employee[0].salary);
-console.log("placeofbirth ",employee[0].address.city);
-console.log("placeofbirth ",employee[0].address.state);
-console.log("placeofbirth ",employee[0].address.pincode);
+console.log(first > second ? first : second > third ? second : third);
